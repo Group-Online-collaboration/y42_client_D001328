@@ -1,6 +1,6 @@
 {
   "request_id": "220623213520_53d4cd20-742c-5993-acd9-d348d40a2d1b",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "9688dfc4-f0d2-419a-b64e-0e709a291ad5",
     "source_settings": {
@@ -34,5 +34,38 @@
     }
   },
   "created_at": "2022-06-23T21:35:20.830888+00:00",
-  "_signature": "rhk2ja2Kfwnim15hyLjjIwy7gSqziiXY943BSMf66ztLcEdSUfYpDSBWAKn2hAw/iwHkkAE7J2HnPeQmWB8bDQ=="
+  "finished_at": "2022-06-23T21:35:51.377563+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-23T21:35:51.377399+00:00",
+    "row_count": 4,
+    "current_import_row_count": 4,
+    "size_in_bytes": 1536,
+    "external_id": "01a525cf-0101-4b08-0001-2c920034b04e",
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "bid_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "loaded_at",
+        "data_type": "TIMESTAMP_LTZ",
+        "external_data_type": "TIMESTAMP_LTZ"
+      },
+      {
+        "field_name": "client_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      }
+    ],
+    "table_name": "220623213520_53d4cd20-742c-5993-acd9-d348d40a2d1b",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220623213520_53d4cd20-742c-5993-acd9-d348d40a2d1b"
+  },
+  "_signature": "sqFH0cqdjGJJRtWdpZ1BVrWufDj28P6BzjwExXpZVs8z55GkMO5wJgeU+gfOecEZQVpjQ8GMQ3jYDPA7UNe2Dw=="
 }
