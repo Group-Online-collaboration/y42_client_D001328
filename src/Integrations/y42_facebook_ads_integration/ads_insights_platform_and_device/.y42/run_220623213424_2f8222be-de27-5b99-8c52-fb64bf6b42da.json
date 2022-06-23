@@ -1,0 +1,65 @@
+{
+  "request_id": "220623213424_2f8222be-de27-5b99-8c52-fb64bf6b42da",
+  "status": "pending",
+  "request": {
+    "source_credentials": "fac6a7bf-dc02-4f6f-9de3-0a503c865e95",
+    "target_credentials": "9688dfc4-f0d2-419a-b64e-0e709a291ad5",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/facebook/0.0.0/source.json",
+      "parent_id": "124029537982891",
+      "start_date": "2022-01-01T00:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/facebook/0.0.0/table",
+      "columns": [
+        "account_id",
+        "ad_id",
+        "adset_id",
+        "campaign_id",
+        "campaign_name",
+        "clicks",
+        "cost_per_inline_link_click",
+        "cost_per_inline_post_engagement",
+        "cost_per_unique_click",
+        "cost_per_unique_inline_link_click",
+        "date_start",
+        "frequency",
+        "impressions",
+        "inline_link_clicks",
+        "inline_post_engagement",
+        "reach",
+        "spend",
+        "unique_clicks",
+        "unique_inline_link_clicks",
+        "publisher_platform",
+        "platform_position",
+        "impression_device"
+      ],
+      "import": "ads_insights_platform_and_device"
+    },
+    "created_at": "2022-06-23T21:34:24.440181+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/y42_facebook_ads_integration/ads_insights_platform_and_device/",
+        "id": "5:8294c53d-2e7a-40a4-a911-159144646da9",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_D001328",
+        "commit_sha": "14677ea046fef6ef88e319f75c74c92fa8f972e0"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-23T21:34:24.440181+00:00",
+  "_signature": "LPUNZz2FM+KNg9h9fjL5sqNvHJgDNk5WfXaghZsHVw4JUYW2Rsqa39RLzfkobGNxseaegEt1vIkadbJrvO3FBw=="
+}
